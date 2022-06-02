@@ -15,7 +15,7 @@ I like to write code
 ## Skills
 
 + **Fundamentals of Programming (C)** - projects:
-[standard library functions of the C language (lift)](https://github.com/LanaLebedeva/standart)
+  + [standard library functions of the C language (lift)](https://github.com/LanaLebedeva/standart)
   + implementation of **printf** (formatted printing)
   + standard C library implemented in **assemblage (libasm)**
   + multitasking and multithreaded programming in C (**Dijkstra algorithm**)
@@ -23,7 +23,7 @@ I like to write code
 
   
 + **Algorithms** (C):
-  +a game based on Wolfenstein (**raycasting**)
+  + a game based on Wolfenstein (**raycasting**)
 
 + **Data structures** (C++):
   + containers - implementation of **STL containers**
