@@ -1,4 +1,4 @@
-<img src="./medoed.jpg" width="300">
+<img src="assets/img/medoed.jpg" width="300">
 
 # [Lana Lebedeva](https://github.com/LanaLebedeva)
 

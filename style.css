@@ -8,14 +8,26 @@
 }
 
 body {
-    /*height: 100%;*/
     min-height: 95vh;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /*border: 1px solid blue;*/
+}
+
+a:link, a:active {
+    color:#864C2D;
+    font-weight:bold
+}
+a:visited {
+    color:#864C2D;
+    font-weight:bold
+}
+a:hover {
+    color:#4d2323;
+    font-weight:bold;
+    text-decoration:none
 }
 
 html {
@@ -28,15 +40,12 @@ html {
 
 .main {
     background-color: #F2EED9;
+    color: #2A2A0E;
 }
 
 .footer {
     background-color: #9ACD6A;
-}
-
-.container {
-    max-width: 1440px;
-    margin: 0 auto;
+    height: 30px;
 }
 
 .nav {
@@ -56,11 +65,13 @@ html {
     padding: 0 20px;
     line-height: 50px;
 }
+
 .nav-item a {
     color: #4d2323;
     text-decoration: none;
     transition: color 0.5s;
 }
+
 .nav-item a:hover {
     color: #F2EED9;
 }
@@ -70,7 +81,7 @@ html {
     margin: 2%;
 }
 
-.section-about-right{
+.section-about-right {
     width: 50%;
     text-align: right;
     padding-right: 5%;
@@ -109,6 +120,26 @@ html {
     padding-left: 5%;
 }
 
-/*body {*/
-/*    font-family: Arial, Helvetica, sans-serif;*/
-/*}*/
+#logoRsSchool {
+    width: 10%;
+    height: 10%;
+    object-fit: cover;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    filter: grayscale(0.2) brightness(1.05);
+    transition: .3s;
+    vertical-align: bottom;
+    margin-top: 2px;
+}
+
+.left {
+    width: 50%;
+    float: left;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.right {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
