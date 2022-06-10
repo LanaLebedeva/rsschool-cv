@@ -6,111 +6,126 @@
     <meta name="keywords" content="JavaScript, Android, Kotlin">
     <title>CV</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
 </head>
 <body>
-<header>
-    <nav>
-        <ul>
-            <li>Brief information</li>
-            <li>Skills</li>
-            <li>Code examples</li>
-            <li>Work experience</li>
-            <li>Education</li>
-            <li>English language</li>
-        </ul>
-    </nav>
-</header>
-<aside>
-    <address>
-        <nav>
-            <ul>
-                <li>Github: <a href="github.com/LanaLebedeva">LanaLebedeva</a></li>
-                <li>Telegram: LanaLebedeva2021</li>
-                <li>Discord: Lana2022</li>
+<header class="header">
+    <div class="container">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#Summary">Brief information</a></li>
+                <li class="nav-item"><a href="#Skills">Skills</a></li>
+                <li class="nav-item"><a href="#Code">Code examples</a></li>
+                <li class="nav-item"><a href="#Experience">Work experience</a></li>
+                <li class="nav-item"><a href="#Education">Education</a></li>
+                <li class="nav-item"><a href="#Language">English language</a></li>
             </ul>
         </nav>
-    </address>
-</aside>
-<main>
-    <section id="About">
-        <h1>Lana Lebedeva</h1>
-        <img src="medoed.jpg" alt="Avatar">
+    </div>
+</header>
+
+<main class="main">
+    <section class="about" id="About">
+        <div class="section-about-right">
+            <h1>Lana Lebedeva</h1>
+            <h4 id="small-caps">Junior developer</h4>
+        </div>
+        <div class="section-about-left">
+            <img src="medoed.jpg" alt="Avatar" id="avatar">
+        </div>
     </section>
-    <section id="Brief information">
-        <h2>Brief information</h2>
-    </section>
-    <section id="Skills">
-        <h2>Skills</h2>
-        <article>
-            <h3>Fundamentals of Programming (C) - projects:</h3>
-            <ul>
-                <li><a href="https://github.com/LanaLebedeva/standart">standard library functions of the C language
-                    (lift)</a></li>
-                <li>implementation of printf (formatted printing)</li>
-                <li>standard C library implemented in assemblage (libasm)</li>
-                <li>multitasking and multithreaded programming in C (Dijkstra algorithm)</li>
-                <li>minishell command interpreter (analog bash) - group project</li>
-            </ul>
-        </article>
-        <article>
-            <h3>Algorithms (C):</h3>
-            <ul>
-                <li>a game based on Wolfenstein (raycasting)</li>
-            </ul>
-        </article>
-        <article>
-            <h3>Data structures (C++):</h3>
-            <ul>
-                <li>containers - implementation of STL containers</li>
-            </ul>
-        </article>
-        <article>
-            <h3>Web server (C++):</h3>
-            <ul>
-                <li>group project, HTTP server implementation</li>
-            </ul>
-        </article>
-    </section>
-    <section id="Code examples">
-        <h2>Code examples</h2>
-        <code>
-            <pre>
-                int setbit(const int value, const int position) {
-                return (value | (1 << position));
-                }
-            </pre>
-        </code>
-    </section>
-    <section id="Work experience">
-        <h2>Work experience</h2>
-        <h3> Sberbank JSC (DIT SIB) - internship</h3>
-        <p>25.10.2021 - 25.04.2022</p>
-        <p>Trainee Engineer (Android, Kotlin)</p>
-        <ul>
-            <li>MVP, MVVM, principles of Pure Architecture</li>
-            <li>Ok http, Upgrade 2</li>
-            <li>Picasso, Slide</li>
-        </ul>
-    </section>
-    <section id="Education">
-        <h2>Education</h2>
-        <h3><a href="https://42.fr/en/homepage/">Ecole 42(Paris) - Sber 21(Moskow)</a></h3>
-        <p>October 28, 2020 to the present.</p>
-        <h3>State University - Higher School of Economics</h3>
-        <p>Diploma with honors, 2004</p>
-        <p>Strategic Management (Master's degree)</p>
-    </section>
-    <section id="English language">
-        <h2>English language</h2>
-        <p>pre-intermediate</p>
-    </section>
+    <div class="main-container">
+        <aside class="section-left">
+            <nav>
+                <ul>
+                    <li>Github: <a href="https://github.com/LanaLebedeva" target="_blank">LanaLebedeva</a></li>
+                    <li>Telegram: LanaLebedeva2021</li>
+                    <li>Discord: Lana2022</li>
+                </ul>
+            </nav>
+        </aside>
+        <div class="section-right">
+            <section id="Summary">
+                <h2>Brief information</h2>
+                <p>I like to write code.</p>
+            </section>
+            <section id="Skills">
+                <h2>Skills</h2>
+                <article>
+                    <h3>Fundamentals of Programming (C) - projects:</h3>
+                    <ul>
+                        <li><a href="https://github.com/LanaLebedeva/standart">standard library functions of the C
+                            language
+                            (lift)</a></li>
+                        <li>implementation of printf (formatted printing)</li>
+                        <li>standard C library implemented in assemblage (libasm)</li>
+                        <li>multitasking and multithreaded programming in C (Dijkstra algorithm)</li>
+                        <li>minishell command interpreter (analog bash) - group project</li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>Algorithms (C):</h3>
+                    <ul>
+                        <li>a game based on Wolfenstein (raycasting)</li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>Data structures (C++):</h3>
+                    <ul>
+                        <li>containers - implementation of <abbr>STL</abbr> containers</li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>Web server (C++):</h3>
+                    <ul>
+                        <li>group project, HTTP server implementation</li>
+                    </ul>
+                </article>
+            </section>
+            <section id="Code">
+                <h2>Code examples</h2>
+                <pre>
+                <code>
+    int setbit(const int value, const int position) {
+        return (value | (1 &lt;&lt; position));
+    }
+                </code>
+                </pre>
+            </section>
+            <section id="Experience">
+                <h2>Work experience</h2>
+                <h3> Sberbank <abbr title="Joint-stock company">JSC</abbr> (<abbr>DIT SIB</abbr>) - internship</h3>
+                <p>25.10.2021 - 25.04.2022</p>
+                <p>Trainee Engineer (Android, Kotlin)</p>
+                <ul>
+                    <li><abbr title="Model-View-Presenter">MVP</abbr>, <abbr title="Model-View-ViewModel">MVVM</abbr>,
+                        principles of Pure Architecture
+                    </li>
+                    <li>Ok http, Upgrade 2</li>
+                    <li>Picasso, Slide</li>
+                </ul>
+            </section>
+            <section id="Education">
+                <h2>Education</h2>
+                <h3><a href="https://42.fr/en/homepage/">Ecole-42 (Paris) - School-21 (Moscow)</a></h3>
+                <p>October 28, 2020 to the present.</p>
+                <h3>State University - Higher School of Economics</h3>
+                <p>Diploma with honors, 2004</p>
+                <p>Strategic Management (Master's degree)</p>
+            </section>
+            <section id="Language">
+                <h2>English language</h2>
+                <p>pre-intermediate</p>
+            </section>
+        </div>
+    </div>
 </main>
-<footer>
-    <div>
-        <li><span>&copy 2022</span> <a href="github.com/LanaLebedeva">LanaLebedeva</a>
+<footer class="footer">
+    <div class="container">
+        <p><span>&copy; 2022</span> <a href="github.com/LanaLebedeva">LanaLebedeva</a>
             <img src="logo.png" alt="Logo The Rolling Scopes">
-            <a href="https://rs.school/js/">The Rolling Scopes School</a>
-        </li>
+            <a href="https://rs.school/js/" target="_blank">The Rolling Scopes School</a>
+        </p>
     </div>
 </footer>
 </body>
